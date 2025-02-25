@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+@media (max-width: 500px) {
+    .blogs {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .end {
+        margin-top: 20px; 
+    }
+    
+
+    
+    .blog-details {
+        grid-template-columns: 1fr;
+    }
+}
